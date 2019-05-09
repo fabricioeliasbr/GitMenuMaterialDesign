@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mCompartilhar"
+        android:icon="@drawable/ic_share_dp"
+        android:title="Compartilhar"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/mSalvar"
+        android:icon="@drawable/ic_bookmark_dp"
+        android:title="Salvar"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/mInfo"
+        android:icon="@drawable/ic_info_dp"
+        android:title="Informações"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/mFav"
+        android:icon="@drawable/ic_star_dp"
+        android:title="Favoritar"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/mConfig"
+        android:icon="@drawable/ic_settings_dp"
+        android:title="Configurações"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/mVoltar"
+        android:icon="@drawable/ic_arrow_dp"
+        android:title="Voltar"
+        app:showAsAction="ifRoom"></item>
+
+</menu>
